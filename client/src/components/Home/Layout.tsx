@@ -1,5 +1,6 @@
 import React from 'react'
-import Sidebar from '../Sidebar'
+import Sidebar from "./Sidebar";
+import { Outlet } from "react-router-dom";
 const Layout =() => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
     return (
